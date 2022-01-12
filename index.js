@@ -152,7 +152,7 @@ console.log(color('  Dreaded Bot Inc. 2021','mediumseagreen'))
 })
 	sibuBot.on('credentials-updated', () => {
 		fs.writeFileSync('./session.json', JSON.stringify(sibuBot.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Sibu Bot Loading...')
+		info('2', 'Dreaded Bot Loading...')
 	})
 	fs.existsSync('./session.json') && sibuBot.loadAuthInfo('./session.json')
 	sibuBot.on('connecting', () => {
@@ -325,7 +325,7 @@ sibuBot.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 HE/SHE FEELS GOOD NOW* 😎`
+				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 HE/SHE FEELS GOOD NOW* 😎`
 
 				sendButImage(anu.jid, teks, `Dreaded 𝐁𝐨𝐭`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
