@@ -22,9 +22,9 @@ const settings = JSON.parse(fs.readFileSync('./settings.json'))
 baterai = 'unknown'
 charging = 'unknown'
 
-const time = moment.tz('Asia/Jakarta').format('HH:mm:ss')			
-const wita = moment.tz('Asia/Makassar').format('HH:mm:ss')			
-const wit = moment.tz('Asia/Jayapura').format('HH:mm:ss')	
+const time = moment.tz('Africa/Nairobi').format('HH:mm:ss')			
+const wita = moment.tz('Africa/Nairobi').format('HH:mm:ss')			
+const wit = moment.tz('Africa/Nairobi').format('HH:mm:ss')	
 
 var date = new Date();
 
@@ -48,18 +48,18 @@ case 6: hari = 'Sabtu'; break;
 }
 
 switch(bulan1) { 
-case 0: bulan1 = 'kurruari'; break;
-case 1: bulan1 = 'Februari'; break; 
-case 2: bulan1 = 'Maret'; break;
+case 0: bulan1 = 'January'; break;
+case 1: bulan1 = 'February'; break; 
+case 2: bulan1 = 'March'; break;
 case 3: bulan1 = 'April'; break;
-case 4: bulan1 = 'Mei'; break;
-case 5: bulan1 = 'Juni'; break;
-case 6: bulan1 = 'Juli'; break;
-case 7: bulan1 = 'Agustus'; break;
+case 4: bulan1 = 'May'; break;
+case 5: bulan1 = 'June'; break;
+case 6: bulan1 = 'July'; break;
+case 7: bulan1 = 'Agusti'; break;
 case 8: bulan1 = 'September'; break;
-case 9: bulan1 = 'Oktober'; break; 
+case 9: bulan1 = 'October'; break; 
 case 10: bulan1 = 'November'; break;
-case 11: bulan1 = 'Desember'; break; 
+case 11: bulan1 = 'December'; break; 
 }
 
 switch(jams){
@@ -141,11 +141,11 @@ const starts = async (sibuBot = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YT CHANNEL: Sibu ','silver'))
-console.log(color('> GITHUB: Sibuuu07 ','silver'))
-console.log(color('> WA NUMBER: +919337956094 ','silver'))
-console.log(color('  Sibu Bot Inc. 2021','mediumseagreen'))
-	sibuBot.browserDescription = [ 'Subscribe Sibu', 'ubuntu', '3.0' ]
+	console.log(color('\n> YT CHANNEL: Dreaded ','silver'))
+console.log(color('> GITHUB: Fortunatusmokaya ','silver'))
+console.log(color('> WA NUMBER: +254114018035 ','silver'))
+console.log(color('  Dreaded Bot Inc. 2021','mediumseagreen'))
+	sibuBot.browserDescription = [ 'Subscribe Dreaded', 'ubuntu', '3.0' ]
 
 	sibuBot.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN THE QR'))
@@ -213,7 +213,7 @@ sibuBot.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "919337956084@s.whatsapp.net"
+    const htod = "254114018035@s.whatsapp.net"
 
     
 
@@ -305,7 +305,7 @@ sibuBot.on('group-participants-update', async (anu) => {
 
 				teks = `😎 *Hɪ* @${num.split('@')[0]}\n😎 *Bɪᴏ* : *${thu.status}*\n😎 *Mᴇᴍʙᴇʀs : ${memeg}*\n😎 *Wᴇʟᴄᴏᴍᴇ Tᴏ ${mdata.subject}*\n😎 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
 
-				sendButImage(anu.jid, teks, `𝐒𝐢𝐛𝐮 𝐁𝐨𝐭`, img,but = [{buttonId:`getdesc`, 
+				sendButImage(anu.jid, teks, `Dreaded 𝐁𝐨𝐭`, img,but = [{buttonId:`getdesc`, 
 
                buttonText:{displayText: 'GET DESC'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -325,9 +325,9 @@ sibuBot.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 𝙱𝚎 𝙱𝚞𝚛𝚍𝚎𝚗 𝙷𝚎𝚛𝚎 𝙰𝚗𝚢𝚖𝚘𝚛𝚎* 😎`
+				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 HE/SHE FEELS GOOD NOW* 😎`
 
-				sendButImage(anu.jid, teks, `𝐒𝐢𝐛𝐮 𝐁𝐨𝐭`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `Dreaded 𝐁𝐨𝐭`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
@@ -347,7 +347,7 @@ sibuBot.on('group-participants-update', async (anu) => {
 
 				teks = `「 PROMOTE - DETECTED 」\n\nName : @${num.split("@")[0]}\nStatus : Member -> Admin\nGroup : ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAWADEE KHA HAPPY NOW?`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
+				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `YOU FEEL HAPPY NOW?`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
 
 			} else if (anu.action == 'demote') {
 
@@ -367,7 +367,7 @@ sibuBot.on('group-participants-update', async (anu) => {
 
 				teks = `「 DEMOTE - DETECTED 」\n\nName : @${num.split("@")[0]}\nStatus : Admin -> Member\nGroup : ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `ANOTHER ONE BITE DUST`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
+				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `ANOTHER ONE BITES DUST 😂`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
 
 			}
 
@@ -400,8 +400,8 @@ sibuBot.on('group-update', async (anu) => {
 	})
     sibuBot.on('chat-update', async (message) => {
         require('./XeonDoge.js')(sibuBot, message)
-        ownerNumber = ["919337956084@s.whatsapp.net","919337956084@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "919337956084@s.whatsapp.net"
+        ownerNumber = ["254114018035@s.whatsapp.net","919337956084@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "254114018035@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
