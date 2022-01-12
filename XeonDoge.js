@@ -642,7 +642,7 @@ options
 
 const daftar1 = `*Hi ${pushname}* 👋\n*Please Register first by typing .verify or*`
 const daftar2 = '_Click the button below to verify_'
-const daftar3 = [{buttonId: `dreaded`,buttonText: {displayText: `😎DREADED😎`,},type: 1,},]
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `💎DREADED💎`,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
