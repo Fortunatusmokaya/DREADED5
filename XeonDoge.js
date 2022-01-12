@@ -1,6 +1,6 @@
-//-----(Sibu Bot by Sibu Bot Inc.)-----\\
-//-----(Youtube Channel: Sibu)-----\\
-//-----(Whatsapp number: +919337956084)-----\\
+//-----(Dreaded Bot by Dreaded Bot Inc.)-----\\
+//-----(Youtube Channel: None)-----\\
+//-----(Whatsapp number: +254114018035)-----\\
 //-----(Wanna reupload??? Can, but give proper credit)----\\
 
 const
@@ -107,13 +107,13 @@ const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭";
+fake = "Dreaded Bot";
 autorespon = settings.AutoRespon
 playmusic = settings.AutoMusic
 antidelete = settings.AntiDelete
 menusimpel = false
-autojoin = true
-menuall = false
+autojoin = false
+menuall = true
 baterai = {
 battery: "" || "Not detected",
 isCharge: "" || true
@@ -249,10 +249,10 @@ try {
 		const from = mek.key.remoteJid
 		const type = Object.keys(mek.message)[0]
 		const { text, extendedText, contact, location, liveLocation, image, video, sticker, document, audio } = MessageType
-		const time = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
-		const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
-		const timeWita = moment().tz('Asia/Makassar').format('DD/MM HH:mm:ss')
-        const timeWit = moment().tz('Asia/Jayapura').format('DD/MM HH:mm:ss')
+		const time = moment.tz('Africa/Nairobi').format('DD/MM HH:mm:ss')
+		const timeWib = moment.tz('Africa/Nairobi').format('DD/MM HH:mm:ss')
+		const timeWita = moment().tz('Africa/Nairobi').format('DD/MM HH:mm:ss')
+        const timeWit = moment().tz('Africa/Nairobi').format('DD/MM HH:mm:ss')
 		const cmd = (type === 'conversation' && mek.message.conversation) ? mek.message.conversation : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : (type == 'extendedTextMessage') && mek.message.extendedTextMessage.text ? mek.message.extendedTextMessage.text : (type == 'stickerMessage') && (getCmd(mek.message.stickerMessage.fileSha256.toString('hex')) !== null && getCmd(mek.message.stickerMessage.fileSha256.toString('base64')) !== undefined) ? getCmd(mek.message.stickerMessage.fileSha256.toString('base64')) : "".slice(1).trim().split(/ +/).shift().toLowerCase()
 		alpha.on("CB:action,,battery", json => {
 	    const battery = json[2][0][1].value
@@ -297,7 +297,7 @@ try {
                 api: 'Error'
 			},
 			only: {
-				group: 'Only for within the group!',
+				group: 'Commands for group chat only!',
 				ownerG: 'Only for group owners!',
 				ownerB: 'Only for bot owners!',
 				admin: 'Only for group admins!',
@@ -337,7 +337,7 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 }
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = alpha.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*𝐒𝐢𝐛𝐮 𝐁𝐨𝐭*", "thumbnail": ftex, "surface": 'CATALOG' }}, {quoted:ftex})
+             res = alpha.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*Dreaded 𝐁𝐨𝐭*", "thumbnail": ftex, "surface": 'CATALOG' }}, {quoted:ftex})
              alpha.relayWAMessage(res)
         }
         const grupinv = (teks) => {
@@ -370,30 +370,30 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 			var ase = new Date();
                         var jamss = ase.getHours();
                          switch(jamss){
-                case 0: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 1: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 2: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 3: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 4: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 5: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 6: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 7: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 8: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 9: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 10: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 11: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 12: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 13: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 14: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 15: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 16: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 17: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 18: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 19: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 20: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 21: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 22: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
-                case 23: jamss = "𝐒𝐢𝐛𝐮 𝐁𝐨𝐭"; break;
+                case 0: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 1: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 2: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 3: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 4: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 5: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 6: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 7: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 8: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 9: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 10: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 11: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 12: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 13: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 14: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 15: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 16: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 17: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 18: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 19: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 20: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 21: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 22: jamss = "Dreaded 𝐁𝐨𝐭"; break;
+                case 23: jamss = "Dreaded 𝐁𝐨𝐭"; break;
             }
             var tampilUcapan = "" + jamss;
             const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
