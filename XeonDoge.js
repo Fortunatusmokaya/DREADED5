@@ -1583,7 +1583,7 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const jancok = `┏━━━❒ *Verified* ❒━━━━
-⬡ *Series : ${serialUser}*	         
+⬡ *Serial : ${serialUser}*	         
 ⬡ *Name : ${pushname}*
 ⬡ *Whatsapp : ${sender.split('@')[0]}*
 ┗━━━━━━━━━━━━━━━━━━`
@@ -1962,7 +1962,7 @@ await alpha.sendMessage(from, otherM, MessageType.buttonsMessage, {quoted: ftex}
 break
 // BIAR GAK LUPA 
 //LUPA
- //======= LIST ASUPANNYA=====/\\\
+ //======= LIST RANDOM=====/\\\
  case 'intakemenu':
  
  listMsg = {
