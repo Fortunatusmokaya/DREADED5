@@ -9,7 +9,7 @@ const jadibot = async(reply,client,id) => {
 	conn = new WAConnection()
     conn.logger.level = 'warn'
     conn.version = [2, 2143, 3]
-    conn.browserDescription = [ 'Subscribe Xeon', '', '3.0' ]
+    conn.browserDescription = [ 'Dreaded by Mokaya', '', '3.0' ]
     conn.on('qr', async qr => {
     	let bot = await qrcode.toDataURL(qr, { scale: 8 })
     	let buffer = new Buffer.from(bot.replace('data:image/png;base64,', ''), 'base64')
