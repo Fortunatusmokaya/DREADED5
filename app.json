@@ -1,7 +1,7 @@
 {
   "name": "Phantom 𝐁𝐨𝐭",
   "description": "whatsapp bot build with nodejs",
-  "repository": "https://github.com/Razi/DREADED4",
+  "repository": "https://github.com/Fortunatusmokaya/DREADED4",
   "logo": "https://static.wikia.nocookie.net/naruto/images/2/27/Kakashi_Hatake.png/revision/latest?cb=20170628120149?format=jpg&name=900x900",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation"],
   "buildpacks": [
