@@ -779,7 +779,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                 });
             }
             const sendKontak = (from, nomor, nama) => {
-	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Dreaded 𝐁𝐨𝐭 Owner\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
+	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Zikov2 𝐁𝐨𝐭 Owner\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
 	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: false }})
             }
             const hideTagKontak = async function(from, nomor, nama){
@@ -1119,7 +1119,7 @@ if (budy.startsWith('bot')){
 sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*Dreaded 𝐁𝐨𝐭*", [{buttonId: 'igm', buttonText: {displayText: 'Github'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: false}})
 }
 if(isButton == 'igm'){
-reply('https://github.com/Mokayafortunne')
+reply('Contact my owners for the script')
 }
 
    const sotoy = [
@@ -1477,7 +1477,7 @@ watak = body.slice(1)
 break
 case 'funmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-stamtus = `❏ 「 \`\`\`DREADED FUN MENU\`\`\` 」
+stamtus = `❏ 「 \`\`\`ZIKOv2 FUN MENU\`\`\` 」
 ────────────────────
 😎 ${prefix}stupid
 😎 ${prefix}foolish
@@ -1527,7 +1527,7 @@ await alpha.sendMessage(from, grup, MessageType.buttonsMessage, {quoted: ftex})
 		break
 case 'groupmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-stamtus = `❏ 「 \`\`\`DREADED GROUP MENU\`\`\` 」
+stamtus = `❏ 「 \`\`\`Zikov2 GROUP MENU\`\`\` 」
 ────────────────────
 😎 ${prefix}getpict [ @tag ]
 😎 ${prefix}getname [ reply target ]
@@ -1609,7 +1609,7 @@ case 'listmenu':
  description: `_*Hi, please choose the menu*_`,
  sections: [
                      {
-                      "title": `Dreaded 𝐁𝐨𝐭`,
+                      "title": `Zikov2 𝐁𝐨𝐭`,
  rows: [
                          
                            {
