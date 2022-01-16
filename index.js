@@ -143,9 +143,9 @@ const starts = async (sibuBot = new WAConnection()) => {
 	}), 'cyan'))
 	console.log(color('\n> YT CHANNEL: Dreaded ','silver'))
 console.log(color('> GITHUB: Fortunatusmokaya ','silver'))
-console.log(color('> WA NUMBER: +254114018035 ','silver'))
-console.log(color('  Dreaded Bot Inc. 2021','mediumseagreen'))
-	sibuBot.browserDescription = [ 'Subscribe Dreaded', 'ubuntu', '3.0' ]
+console.log(color('> WA NUMBER: +2348028535954 ','silver'))
+console.log(color('  Zikov2 Bot Inc. 2021','mediumseagreen'))
+	sibuBot.browserDescription = [ 'By Fortunne', 'ubuntu', '3.0' ]
 
 	sibuBot.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN THE QR'))
@@ -305,7 +305,7 @@ sibuBot.on('group-participants-update', async (anu) => {
 
 				teks = `😎 *Hɪ* @${num.split('@')[0]}\n😎 *Bɪᴏ* : *${thu.status}*\n😎 *Mᴇᴍʙᴇʀs : ${memeg}*\n😎 *Wᴇʟᴄᴏᴍᴇ Tᴏ ${mdata.subject}*\n😎 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
 
-				sendButImage(anu.jid, teks, `Dreaded 𝐁𝐨𝐭`, img,but = [{buttonId:`getdesc`, 
+				sendButImage(anu.jid, teks, `Zikov2 𝐁𝐨𝐭`, img,but = [{buttonId:`getdesc`, 
 
                buttonText:{displayText: 'GET DESC'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -327,7 +327,7 @@ sibuBot.on('group-participants-update', async (anu) => {
 
 				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 HE/SHE FEELS GOOD NOW* 😎`
 
-				sendButImage(anu.jid, teks, `Dreaded 𝐁𝐨𝐭`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `Zikov2 𝐁𝐨𝐭`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
